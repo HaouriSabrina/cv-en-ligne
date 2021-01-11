@@ -1,0 +1,32 @@
+h2, h3, h4
+{
+	color: black; /*commentaire*/
+}
+p
+{
+    font-size: 18px; /* Paragraphes de 14 pixels */
+}
+h1
+{
+    font-size: 40px; /* Titres de 40 pixels */
+}
+@font-face {
+    font-family: 'satisfy-regular-webfont';
+    src: url('satisfy-regular-webfont.eot') format('eot'),
+         url('satisfy-regular-webfont.woff') format('woff'),
+         url('satisfy-regular-webfont.ttf') format('truetype'),
+         url('satisfy-regular-webfont.svg') format('svg');
+}
+
+h1, h2, h3, h4 /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'satisfy-regular-webfont', Arial, serif;
+}
+
+h2
+
+{
+	text-decoration: underline;
+	text-align: center;
+}
+
