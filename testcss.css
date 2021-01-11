@@ -1,6 +1,11 @@
+body
+{
+	background-color: #D2CCE8;
+}
+
 h2, h3, h4
 {
-	color: black; /*commentaire*/
+	color: #991E78; /*commentaire*/
 }
 p
 {
@@ -28,5 +33,23 @@ h2
 {
 	text-decoration: underline;
 	text-align: center;
+	border: 3px #991E78 outset;
+}
+h3
+{
+	text-align: center;
+	color: #701E99;
 }
 
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
