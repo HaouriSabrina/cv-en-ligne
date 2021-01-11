@@ -7,10 +7,7 @@ h2, h3, h4
 {
 	color: #991E78; /*commentaire*/
 }
-p
-{
-    font-size: 18px; /* Paragraphes de 14 pixels */
-}
+
 h1
 {
     font-size: 40px; /* Titres de 40 pixels */
@@ -37,8 +34,7 @@ h2
 }
 h3
 {
-	text-align: center;
-	color: #701E99;
+		color: #701E99;
 }
 
 a /* Liens par défaut (non survolés) */
@@ -52,4 +48,14 @@ a:hover /* Apparence au survol des liens */
 {
    text-decoration: underline;
    color: green;
+}
+
+.left
+{
+	text-align: left;
+}
+
+.centrer
+{
+	text-align: center;
 }
