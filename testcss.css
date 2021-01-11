@@ -1,11 +1,11 @@
 body
 {
-	background-color: #D2CCE8;
+	background-color: #d4e0da;
 }
 
-h2, h3, h4
+h1, h2, h3, h4
 {
-	color: #991E78; /*commentaire*/
+	color: #12462e; /*commentaire*/
 }
 
 h1
@@ -30,11 +30,11 @@ h2
 {
 	text-decoration: underline;
 	text-align: center;
-	border: 3px #991E78 outset;
+	border: 3px #FFFFFF outset;
 }
 h3
 {
-		color: #701E99;
+		color: #12462e;
 }
 
 a /* Liens par défaut (non survolés) */
